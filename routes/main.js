@@ -28,8 +28,8 @@ router.get('/store/item', (req, res) => {
 router.get('/store/item/checkout', (req, res) => {
     res.sendFile(__path + '/views/cekqout.html')
 })
-router.get('/test', (req, res) => {
-    res.sendFile(__path + '/view/test.html')
+router.get('/diamond', (req, res) => {
+    res.sendFile(__path + '/views/web cantik 1 (diamonml.html')
 })
 router.get('/logout', (req, res) => {
     res.sendFile(__path + '/logout.html')
